@@ -8,8 +8,9 @@ import Foundation
 open class MediaPlaylist {
     var masterPlaylist: MasterPlaylist?
 
-    open var programId: Int = 0
     open var bandwidth: Int = 0
+    open var resolutionW: Int = 0
+    open var resolutionH: Int = 0
     open var path: String?
     open var version: Int?
     open var targetDuration: Int?
